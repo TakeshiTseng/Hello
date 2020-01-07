@@ -1,3 +1,5 @@
+syntax = "proto3";
+
 // Hello from Yi
 service Yi {
   rpc Hello(HelloRequest) returns (HelloResponse) {}
